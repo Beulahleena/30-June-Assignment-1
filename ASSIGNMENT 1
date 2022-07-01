@@ -8,3 +8,7 @@ for i in l :
     else :
         x.append(i)
 count=0
+for i in x :
+    print(i,end=' ')
+    count=count+1 
+print(count)
