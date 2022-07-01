@@ -1,0 +1,10 @@
+n=int(input())
+l=list(map(int,input(n).split()))
+m=[]
+x=[]
+for i in l :
+    if i not in m :
+        m.append(i)
+    else :
+        x.append(i)
+count=0
